@@ -4,19 +4,18 @@ import com.mbserver.api.Manifest;
 
 @Manifest( name = "MbSteamPlugin", authors = "MBSteamCrew")
 
-
 public class PluginMain extends MBServerPlugin {
 
     @Override
     public void onEnable() {
     
-        //Todo - Stuff to do when the server starts up
+        this.getLogger().info("Thanks for using the MbSteamPlugin by the MBSteamCrew!")
     
       }
     @Override
     public void onDisable() {
     
-        //Todo - Stuff to do when the server shuts down
+        this.getLogger().info("Have a nice day!")
     
     }
     
